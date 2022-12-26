@@ -28,7 +28,7 @@
 <!-- <script src="assets/js/plugin/chart-circle/circles.min.js"></script> -->
 
 <!-- Datatables -->
-<script src="assets/js/plugin/datatables/datatables-butane.min.js"></script>
+<script src="assets/js/plugin/datatables/datatables-bubble-roll.min.js"></script>
 
 <!-- Bootstrap Notify -->
 <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
@@ -63,6 +63,8 @@
 // ../../config/msg_popup.php
 </script>
 <script src="assets/js/reponsive-datatable.js"></script>
+<script src="assets/js/scrolltop-action.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 <!-- controller/modal.php -->
 

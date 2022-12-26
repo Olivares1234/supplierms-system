@@ -4,7 +4,7 @@ $database = new connDB();
 $db = $database->open();
 
 try {
-    $sql = 'SELECT * FROM tbl_supplier WHERE sppr_raw_materials="Blade"';
+    $sql = 'SELECT * FROM tbl_supplier WHERE sppr_raw_extension="Bubble"';
     foreach ($db->query($sql) as $row) {
         // WHERE sppr_raw_materials="Resin" 
 ?>

@@ -28,7 +28,7 @@
 <!-- <script src="assets/js/plugin/chart-circle/circles.min.js"></script> -->
 
 <!-- Datatables -->
-<script src="assets/js/plugin/datatables/datatables-blade.min.js"></script>
+<script src="assets/js/plugin/datatables/datatables-danpla.min.js"></script>
 
 <!-- Bootstrap Notify -->
 <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>

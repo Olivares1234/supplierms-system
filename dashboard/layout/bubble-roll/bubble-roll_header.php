@@ -12,7 +12,7 @@ if (isset($_SESSION["username"])) {
 
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>SUPPLIERMS- Minamoto Enterprise Corporation</title>
+    <title>SUPPLIERMS- Minamoto Enterprise</title>
     <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
     <link rel="icon" href="assets/img/truck.png" type="image/x-icon" />
     <!-- <link href="assets/img/logo/repair.png" rel="icon"> -->
@@ -26,6 +26,7 @@ if (isset($_SESSION["username"])) {
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles-main.min.css">
     <link rel="stylesheet" href="assets/css/icon/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/scrolltop.css">
     
     <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css"> -->
     <!-- <link rel="stylesheet" href="https://cdn.datatables.net/rowreorder/1.3.1/css/rowReorder.dataTables.min.css"> -->
@@ -46,7 +47,7 @@ if (isset($_SESSION["username"])) {
     </style>
 </head>
 
-<body onload="initClock()">
+<body onload="initClock()" id="page-top">
     <div class="content">
         <!--
 			Tip 1: You can change the background color of the main header using: data-background-color="blue | purple | light-blue | green | orange | red"

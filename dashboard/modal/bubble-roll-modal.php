@@ -1,4 +1,4 @@
-<!-- Add New -->
+<!-- Add New Bubble Roll -->
 <div class="modal fade" id="add" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
@@ -13,7 +13,7 @@
                         <div class="col-md-6">
                             <div class="form-group form-group-default">
                                 <label><b>Company Name:</b></label>
-                                <input type="hidden" style="text-transform: capitalize;" class="form-control" name="sppr_raw_materials" value="Blade">
+                                <input type="hidden" style="text-transform: capitalize;" class="form-control" name="sppr_raw_materials" value="Bubble Roll">
                                 <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_company_name" placeholder="Enter Company Name..." required>
                             </div>
                         </div>
@@ -41,8 +41,7 @@
                             </div>
                         </div>
                     </div>
-
-
+                    
                     <div class="row mt-3">
                         <div class="col-md-6">
                            <div class="form-group form-group-default">
@@ -246,15 +245,70 @@
                         </div>
                     </div>
 
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <div class="form-group form-group-default">
+                                <label><b>Contact Person:</b></label>
+                                <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_contact_person" placeholder="Enter Contact Person...">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group form-group-default">
+                                <label><b>Contact#:</b></label>
+                                <input type="text" min="0" max="" style="text-transform: capitalize;" class="form-control" name="sppr_contact_num" placeholder="Enter Contact #...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <div class="form-group form-group-default">
+                                <label><b>Fax#:</b></label>
+                                <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_fax_num" placeholder="Enter Fax #...">
+                            </div>
+                        </div>
                    
 
-            </div>
-            <div class="modal-footer">
+                        <div class="col-md-6">
+                            <div class="form-group form-group-default">
+                                <label><b>Email / Website:</b></label>
+                                <input type="text" min="0" max="" style="text-transform: capitalize;" class="form-control" name="sppr_email" placeholder="Enter Email / Website...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <div class="form-group form-group-default">
+                                <label><b>Current Payment Terms:</b></label>
+                                <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_current_pay_terms" placeholder="Enter Current Payment Terms...">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group form-group-default">
+                                <label><b>Year Approved:</b></label>
+                                <input type="number" min="1900" max="2099" step="1" value="2016" style="text-transform: capitalize;" class="form-control" name="sppr_approved" placeholder="Enter Year Approved...">
+                                <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_raw_extension" placeholder="Enter Raw Extension..." value="Bubble" hidden>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group form-group-default">
+                                <label><b>Remarks:</b></label>
+                                <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_remarks" placeholder="Enter Raw Extension...">
+                            </div>
+                        </div>
+                    </div> 
+                    
+
+                <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span><i class="fa-solid fa-repeat"></i> Reset</button>
                 <button type="submit" id="refresh" class="btn btn-primary"><span class="glyphicon glyphicon-check"></span> <i class="fa-solid fa-paper-plane"></i> Save</a>
                     </form>
             </div>
-
+        </div>
         </div>
     </div>
 </div>
@@ -318,7 +372,7 @@
                             </tr>
 
                             <tr>
-                                <th>mail Address / Website:</th>
+                                <th>Email Address / Website:</th>
                                 <td style="word-wrap: break-word;" class="sppr_email" name="sppr_email" value="sppr_email"></td>
 
                                 <th>Current Payment Terms:</th>
@@ -365,7 +419,7 @@
                             <div class="form-group form-group-default">
                                 <label><b>Company Name:</b></label>
                                 <input type="hidden" class="id" name="id">
-                                <input type="hidden" style="text-transform: capitalize;" class="form-control" name="sppr_raw_materials" value="Resin">
+                                <input type="hidden" style="text-transform: capitalize;" class="form-control" name="sppr_raw_materials" value="Bubble Roll">
                                 <input type="text" style="text-transform: capitalize;" class="form-control sppr_company_name" name="sppr_company_name" placeholder="Enter Company...">
                             </div>
                         </div>

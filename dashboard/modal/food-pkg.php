@@ -13,7 +13,7 @@
                         <div class="col-md-6">
                             <div class="form-group form-group-default">
                                 <label><b>Company Name:</b></label>
-                                <input type="hidden" style="text-transform: capitalize;" class="form-control" name="sppr_raw_materials" value="Resin">
+                                <input type="hidden" style="text-transform: capitalize;" class="form-control" name="sppr_raw_materials" value="Blade">
                                 <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_company_name" placeholder="Enter Company Name..." required>
                             </div>
                         </div>
@@ -250,24 +250,22 @@
                         <div class="col-md-6">
                             <div class="form-group form-group-default">
                                 <label><b>Contact Person:</b></label>
-                                <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_contact_person" placeholder="Enter Contact Person..." required>
+                                <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_company_name" placeholder="Enter Company Name..." required>
                             </div>
                         </div>
 
                         <div class="col-md-6">
                             <div class="form-group form-group-default">
                                 <label><b>Contact #:</b></label>
-                                <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_address" placeholder="Enter Contact...">
+                                <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_company_name" placeholder="Enter Company Name..." required>
                             </div>
                         </div>
                     </div>
 
-                   
-
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span><i class="fa-solid fa-repeat"></i> Reset</button>
-                <button type="submit" id="refresh" class="btn btn-primary"><span class="glyphicon glyphicon-check"></span><i class="fa-solid fa-paper-plane"></i> Save</a>
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Reset</button>
+                <button type="submit" id="refresh" class="btn btn-primary"><span class="glyphicon glyphicon-check"></span>Save</a>
                     </form>
             </div>
 
@@ -349,6 +347,7 @@
 
                                 <th>Remarks:</th>
                                 <td style="word-wrap: break-word; color:#209d8f;" class="sppr_remarks" name="sppr_remarks" value="sppr_remarks"></td>
+
                             </tr>
                         </table>
                     </div>
@@ -610,10 +609,64 @@
                         </div>
                     </div>
 
+
+                    <!-- <div class="row mt-3">
+                        <div class="col-md-6">
+                            <div class="form-group form-group-default">
+                                <label><b>Contact Person:</b></label>
+                                <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_company_name" placeholder="Enter Contact Person:...">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-default">
+                                <label><b>Contact #:</b></label>
+                                <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_address" placeholder="Enter Contact Number...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <div class="form-group form-group-default">
+                                <label><b>Fax #:</b></label>
+                                <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_company_name" placeholder="Enter Fax Number:...">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-default">
+                                <label><b>Email Address / Website</b></label>
+                                <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_address" placeholder="Enter Email Address / Website...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col-md-4">
+                            <div class="form-group form-group-default">
+                                <label><b>Current Payment Terms:</b></label>
+                                <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_company_name" placeholder="Enter Fax Number:...">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group form-group-default">
+                                <label><b>Year Approved:</b></label>
+                                <input type="number" class="form-control" min="1900" max="2099" step="1" value="2016" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group form-group-default">
+                                <label><b>Remarks:</b></label>
+                                <input type="text" class="form-control" name="" placeholder="Enter Remarks..." />
+                            </div>
+                        </div>
+                    </div> -->
+
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span><i class="fa-solid fa-repeat"></i> Reset</button>
-                <button type="submit" id="refresh" class="btn btn-primary"><span class="glyphicon glyphicon-check"></span><i class="fa-solid fa-paper-plane"></i> Save</a>
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Reset</button>
+                <button type="submit" id="refresh" class="btn btn-primary"><span class="glyphicon glyphicon-check"></span>Save</a>
                     </form>
             </div>
 

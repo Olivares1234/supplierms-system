@@ -23,7 +23,7 @@ if(isset($_POST['btnsign'])){
 
 
     if($login){
-        header("Location:../dashboard/resin.php");
+        header("Location:../dashboard/bubble-roll.php");
         // flash("msg1","  Success!");
         // echo "<script>alert('Error');document.location='../dashboard/res.php'</script>";
  

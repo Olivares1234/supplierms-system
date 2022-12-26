@@ -64,17 +64,53 @@
 				<div class="col-md-12">
 					<div class="card">
 						<div class="card-header">
-							<h4 class="card-title" style="font-weight: 600;">Blade Suppliers</h4>
-							<button class="btn btn-primary me-md-2" id="addnew" type="button" style="float:right;"><i class="fa-solid fa-trailer"></i>&nbsp;Add Supplier</button>
+							<h4 class="card-title" style="font-weight: 600;">Danpla Sheets & Boxes Suppliers</h4>
+							<br>
+							<form class="form-row">
+								<div class="col-auto">
+									<div class="form-check mb-2">
+										<input class="form-check-input" type="checkbox" id="autoSizingCheck">
+										<label class="form-check-label" for="autoSizingCheck">
+											<h5><b>Select Raw Materials:</b></h5>
+										</label>
+									</div>
+								</div>
+								<div class="col-7">
+								<select class="form-select" style="width: 100%;" tabindex="-1" aria-hidden="true" onchange="location = this.value;">
+										<option value="danpla.php">Danpla Sheets & Boxes</option>
+										<option value="bubble-roll.php"><b>Bubble Roll</b></option>
+										<option value="packaging.php">Food Packaging </option>
+										<option value="forms.php">Forms & Receipt</option>
+										<option value="bubble-roll.php"><b>HDPE/PE & ESD Bag</b></option>
+										<option value="danpla.php">Metal Fabrication</option>
+										<option value="packaging.php">Pallets & Corner Protector </option>
+										<option value="forms.php">Packaging Tape</option>
+										<option value="bubble-roll.php"><b>PE/PU Conductive</b></option>
+										<option value="danpla.php">PP Strap</option>
+										<option value="packaging.php">RSC & Shipping Box</option>
+										<option value="forms.php">Stretch Film</option>
+										<option value="bubble-roll.php"><b>Sticker & Label</b></option>
+										<option value="danpla.php">Tooling Blade</option>
+										<option value="packaging.php">Ziplock Bags</option>
+									</select>
+
+								</div>
+								<div class="col-auto">
+									<button class="btn btn-primary" id="addnew" type="button"><i class="fa-solid fa-trailer"></i>&nbsp;Add Supplier</button>
+								</div>
+
+
+							</form>
+
 						</div>
 						<div class="card-body">
-						
+
 							<div class="loaders">
-							<center>
-								<img src="assets/img/truck.gif" alt="" width="250px" height="250px" >
+								<center>
+									<img src="assets/img/truck.gif" alt="" width="250px" height="250px">
 								</center>
 							</div>
-								
+
 							<div class="table-responsive lg" id="examples">
 								<table id="example" class="display table-striped table-hover table-responsive" width="100%">
 									<thead>
@@ -126,4 +162,3 @@
 </div>
 </div>
 </div>
-
