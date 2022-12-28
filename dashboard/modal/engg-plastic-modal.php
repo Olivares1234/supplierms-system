@@ -1,4 +1,4 @@
-<!-- Add New Bubble Roll -->
+<!-- Add New Engineering Roll -->
 <div class="modal fade" id="add" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
@@ -290,7 +290,7 @@
                             <div class="form-group form-group-default">
                                 <label><b>Year Approved:</b></label>
                                 <input type="number" min="1900" max="2099" step="1" value="2016" style="text-transform: capitalize;" class="form-control" name="sppr_approved" placeholder="Enter Year Approved...">
-                                <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_raw_extension" placeholder="Enter Raw Extension..." value="Bubble" hidden>
+                                <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_raw_extension" placeholder="Enter Raw Extension..." value="Engineering" hidden>
                             </div>
                         </div>
 

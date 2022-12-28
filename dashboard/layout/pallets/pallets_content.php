@@ -64,7 +64,7 @@
 				<div class="col-md-12">
 					<div class="card">
 						<div class="card-header">
-							<h4 class="card-title" style="font-weight: 600;">Bubble Roll Suppliers</h4>
+							<h4 class="card-title" style="font-weight: 600;">Pallets & Corner Protector Suppliers</h4>
 							<br>
 							<form class="form-row">
 								<div class="col-auto">
@@ -77,14 +77,14 @@
 								</div>
 								<div class="col-6">
 								<select class="form-select" style="width: 100%;" tabindex="-1" aria-hidden="true" onchange="location = this.value;">
+										<option value="pallets.php">Pallets & Corner Protector </option>
 										<option value="bubble-roll.php"><b>Bubble Roll</b></option>
 										<option value="danpla.php">Danpla Sheets & Boxes</option>
 										<option value="engg-plastic.php">Engineering Plastic</option>
-										<option value="food-packaging.php">Food Packaging</option>
+										<option value="food-packaging.php">Food Packaging </option>
 										<option value="forms-receipt.php">Forms & Receipt</option>
 										<option value="hdpe-bag.php"><b>HDPE/PE & ESD Bag</b></option>
 										<option value="metal-fabric.php">Metal Fabrication</option>
-										<option value="pallets.php">Pallets & Corner Protector </option>
 										<option value="forms.php">Packaging Tape</option>
 										<option value="bubble-roll.php"><b>PE/PU Conductive</b></option>
 										<option value="danpla.php">PP Strap</option>
