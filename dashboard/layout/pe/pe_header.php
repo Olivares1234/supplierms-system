@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 if (isset($_SESSION["username"])) {
     $_SESSION["username"];
 } else {
@@ -20,12 +19,9 @@ if (isset($_SESSION["username"])) {
 
     <!-- Fonts and icons -->
     <script src="assets/js/plugin/webfont/webfont.min.js"></script>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- CSS Files -->
-   
     <link rel="stylesheet" href="assets/css/loader_animate.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles-main.min.css">

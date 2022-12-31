@@ -85,10 +85,10 @@
 										<option value="hdpe-bag.php"><b>HDPE/PE & ESD Bag</b></option>
 										<option value="metal-fabric.php">Metal Fabrication</option>
 										<option value="pallets.php">Pallets & Corner Protector </option>
-										<option value="forms.php">Packaging Tape</option>
-										<option value="bubble-roll.php"><b>PE/PU Conductive</b></option>
-										<option value="danpla.php">PP Strap</option>
-										<option value="packaging.php">RSC & Shipping Box</option>
+										<option value="tape.php">Packaging Tape</option>
+										<option value="pe.php"><b>PE/PU Conductive</b></option>
+										<option value="pp.php">PP Strap</option>
+										<option value="rsc.php">RSC & Shipping Box</option>
 										<option value="forms.php">Stretch Film</option>
 										<option value="bubble-roll.php"><b>Sticker & Label</b></option>
 										<option value="danpla.php">Tooling Blade</option>
