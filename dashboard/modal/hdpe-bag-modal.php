@@ -679,7 +679,7 @@
                         <div class="col-md-6">
                             <div class="form-group form-group-default">
                                 <label><b>Email / Website:</b></label>
-                                <input type="text" min="0" max="" style="text-transform: capitalize;" class="form-control sppr_email" name="sppr_email" placeholder="Enter Email / Website...">
+                                <input type="text" class="form-control sppr_email" name="sppr_email" placeholder="Enter Email / Website...">
                             </div>
                         </div>
                     </div>
@@ -708,8 +708,8 @@
                         </div>
                     </div> 
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Reset</button>
-                <button type="submit" id="refresh" class="btn btn-primary"><span class="glyphicon glyphicon-check"></span>Save</a>
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span><i class="fa-solid fa-repeat"></i> Reset</button>
+                <button type="submit" id="refresh" class="btn btn-primary"><span class="glyphicon glyphicon-check"></span><i class="fa-solid fa-paper-plane"></i> Save</a>
                     </form>
             </div>
         </div>
@@ -722,9 +722,8 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Delete Member</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">×</span>
+            <h3 class="modal-title"><i style="color:#2c8cb7;" class="fas fa-truck fa-xl"></i> <b>Deleting Record</b></h3>
+                <span class="close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-regular fa-circle-xmark fa-lg" style="color: #c50909; cursor: pointer;"></i></span>
                 </button>
             </div>
             <div class="modal-body">
@@ -732,8 +731,8 @@
                 <h2 class="text-center fullname"></h2>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
-                <button type="button" class="btn btn-danger id"><span class="glyphicon glyphicon-trash"></span> Yes</button>
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span><i class="fa-solid fa-remove"></i> Cance</button>
+                <button type="submit" id="refresh" class="btn btn-primary id"><span class="glyphicon glyphicon-check"></span><i class="fa-solid fa-paper-plane"></i> Yes</a>
             </div>
 
         </div>

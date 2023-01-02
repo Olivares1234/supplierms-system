@@ -89,10 +89,10 @@
 										<option value="bubble-roll.php"><b>PE/PU Conductive</b></option>
 										<option value="pallets.php">Pallets & Corner Protector </option>
 										<option value="pp.php">PP Strap</option>
-										<option value="forms.php">Stretch Film</option>
-										<option value="bubble-roll.php"><b>Sticker & Label</b></option>
-										<option value="danpla.php">Tooling Blade</option>
-										<option value="packaging.php">Ziplock Bags</option>
+										<option value="film.php">Stretch Film</option>
+										<option value="sticker.php"><b>Sticker & Label</b></option>
+										<option value="blade.php">Tooling Blade</option>
+										<option value="ziplock.php">Ziplock Bags</option>
 									</select>
 
 								</div>

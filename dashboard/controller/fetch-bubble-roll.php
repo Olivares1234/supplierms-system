@@ -24,6 +24,9 @@ try {
                     <button type="button" class="btn-link btn-success btn-md edit" data-id="<?php echo $row['id']; ?>" data-toggle="tooltip"  data-placement="top" title="Edit"  data-original-title="Edit">
                         <i class="fa fa-edit"></i>
                     </button>
+                    <button type="button" class="btn-link btn-danger btn-md delete" data-id="<?php echo $row['id']; ?>" data-toggle="tooltip"  data-placement="top" title="Delete"  data-original-title="Delete">
+                        <i class="fa fa-trash"></i>
+                    </button>
                 </div>
             </td>
             
