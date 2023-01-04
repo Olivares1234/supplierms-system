@@ -1,3 +1,4 @@
+<?php include 'controller/fetch-count-dash.php'; ?>
 <?php include 'layout/metal-fabric/metal_fabric_header.php'; ?>
 <?php include 'layout/metal-fabric/metal_fabric_navbar.php'; ?>
 <?php include 'layout/metal-fabric/metal_fabric_sidebar.php'; ?>

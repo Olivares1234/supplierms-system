@@ -1,3 +1,4 @@
+<?php include 'controller/fetch-count-dash.php'; ?>
 <?php include 'layout/ziplock/ziplock_header.php'; ?>
 <?php include 'layout/ziplock/ziplock_navbar.php'; ?>
 <?php include 'layout/ziplock/ziplock_sidebar.php'; ?>

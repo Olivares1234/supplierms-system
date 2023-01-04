@@ -60,7 +60,7 @@
 
 <?php
 
-include 'controller/db.php';
+// include 'controller/db.php';
 
 $passid = $_SESSION['id'];
 

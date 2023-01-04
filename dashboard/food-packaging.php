@@ -1,3 +1,4 @@
+<?php include 'controller/fetch-count-dash.php'; ?>
 <?php include 'layout/food-pkg/food_pkg_header.php'; ?>
 <?php include 'layout/food-pkg/food_pkg_navbar.php'; ?>
 <?php include 'layout/food-pkg/food_pkg_sidebar.php'; ?>

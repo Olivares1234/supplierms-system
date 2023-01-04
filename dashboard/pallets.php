@@ -1,3 +1,4 @@
+<?php include 'controller/fetch-count-dash.php'; ?>
 <?php include 'layout/pallets/pallets_header.php'; ?>
 <?php include 'layout/pallets/pallets_navbar.php'; ?>
 <?php include 'layout/pallets/pallets_sidebar.php'; ?>

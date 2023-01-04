@@ -24,4 +24,5 @@ Class connDB{
 }
 
 $con = mysqli_connect('localhost', 'root','', 'supplierdb');
+
 ?>

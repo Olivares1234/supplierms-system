@@ -1,3 +1,4 @@
+<?php include 'controller/fetch-count-dash.php'; ?>
 <?php include 'layout/tape/tape_header.php'; ?>
 <?php include 'layout/tape/tape_navbar.php'; ?>
 <?php include 'layout/tape/tape_sidebar.php'; ?>

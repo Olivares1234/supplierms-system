@@ -87,9 +87,9 @@
 										<option value="metal-fabric.php">Metal Fabrication</option>
 										<option value="pallets.php">Pallets & Corner Protector </option>
 										<option value="bubble-roll.php"><b>PE/PU Conductive</b></option>
-										<option value="danpla.php">PP Strap</option>
-										<option value="packaging.php">RSC & Shipping Box</option>
-										<option value="forms.php">Stretch Film</option>
+										<option value="pp.php">PP Strap</option>
+										<option value="rsc.php">RSC & Shipping Box</option>
+										<option value="film.php">Stretch Film</option>
 										<option value="sticker.php"><b>Sticker & Label</b></option>
 										<option value="blade.php">Tooling Blade</option>
 										<option value="ziplock.php">Ziplock Bags</option>

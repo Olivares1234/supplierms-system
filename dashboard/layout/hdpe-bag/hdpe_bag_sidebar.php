@@ -5,15 +5,15 @@
          <div class="sidebar-content">
              <div class="user">
                  <div class="avatar-sm float-left mr-2">
-                 <img src=assets/img/<?= $_SESSION['image'];?> alt="..." class="avatar-img rounded-circle">
+                 <img class="avatar-img rounded-circle" src="assets\img\<?= $_SESSION['image']; ?>">
                  </div>
                  <div class="info">
                      <a data-toggle="collapse" href="#collapseExample" aria-expanded="true">
-                        <span>
+                     <span>
                          <?php echo $_SESSION["role"];?>
                              <span class="user-level"><?php echo $_SESSION["username"];?></span>
                              <span class="caret"></span>
-                        </span>
+                         </span>
                      </a>
                      <div class="clearfix"></div>
 
@@ -25,7 +25,7 @@
                             </a>
                         </li> -->
                              <li>
-                                 <a href="#edit">
+                                 <a href="profile.php">
                                      <span class="link-collapse">Edit Profile</span>
                                  </a>
                              </li>
@@ -65,87 +65,30 @@
              <hr>
              <!--digital clock end-->
              <ul class="nav">
-                 <li class="nav-section">
-                     <span class="sidebar-mini-icon">
-                         <i class="fa-solid fa-warehouse-full"></i>
-                     </span>
-                     <h4 class="text-section">List Raw Materials</h4>
-                 </li>
-                 <li class="nav-item active">
-                     <a data-toggle="collapse" href="#tables">
-                         <i class="fa-solid fa-truck-fast"></i>
-                         <p>All Suppliers</p>
-                         <span class="caret"></span>
-                     </a>
-                     <div class="collapse" id="tables">
-                         <ul class="nav nav-collapse">
-                             <li class="nav-item">
-                                 <a href="butane.php">
-                                     <i class="fas fa-boxes"></i>
-                                     <p>Butane</p>
-                                 </a>
-                             </li>
-                             <li class="nav-item">
-                                 <a href="blade.php">
-                                     <i class="fas fa-boxes"></i>
-                                     <p>Blade</p>
-                                 </a>
-                             </li>
-                             <li class="nav-item">
-                                 <a href="colorant.php">
-                                     <i class="fas fa-boxes"></i>
-                                     <p>Colorant</p>
-                                 </a>
-                             </li>
-                             <li class="nav-item active">
-                                 <a href="fabrication.php">
-                                     <i class="fas fa-boxes"></i>
-                                     <p>Fabrication / Machine<br>Tools And Equipment</p>
-                                 </a>
-                             </li>
-                             <li class="nav-item">
-                                 <a href="home.php">
-                                     <i class="fas fa-boxes"></i>
-                                     <p>Home /Office/Production<br>Appliance</p>
-                                 </a>
-                             </li>
-                             <li class="nav-item">
-                                 <a href="packaging-tapes.php">
-                                     <i class="fas fa-boxes"></i>
-                                     <p>Packaging Tapes</p>
-                                 </a>
-                             </li>
-                             <li class="nav-item">
-                                 <a href="printed-film.php">
-                                     <i class="fas fa-boxes"></i>
-                                     <p>Printed Film</p>
-                                 </a>
-                             </li>
-                             <li class="nav-item">
-                                 <a href="ppe.php">
-                                     <i class="fas fa-boxes"></i>
-                                     <p>PPE</p>
-                                 </a>
-                             </li>
-                             <li class="nav-item">
-                                 <a href="resin.php">
-                                     <i class="fas fa-boxes"></i>
-                                     <p>Resin</p>
-                                     <!-- <span class="caret"></span> -->
-                                 </a>
-                             </li>
-                             <li class="nav-item">
-                                 <a href="talc.php">
-                                     <i class="fas fa-boxes"></i>
-                                     <p>Talc</p>
-                                 </a>
-                             </li>
-                             <li class="nav-item">
-                                 <a href="vmpet.php">
-                                     <i class="fas fa-boxes"></i>
-                                     <p>VmPet Foil</p>
-                                 </a>
-                             </li>
+             <li class="nav-item active">
+				 <a href="bubble-roll.php">
+                 <i class="fa-solid fa-truck-fast"></i>
+					<p>Supplier List</p>
+					<!-- <span class="badge badge-count" style="color:white; background:red;">5</span> -->
+				 </a>
+			    </li>
+
+                <li class="nav-item active">
+				 <a href="pending.php">
+                 <i class="fa-solid fa-message"></i>
+					<p>Ongoing Approval</p>
+					<span class="badge badge-count" style="color:white; background:orange;"><?php echo $total_pending;?></span>
+				 </a>
+			    </li>
+
+                <li class="nav-item">
+				 <a href="rejected.php">
+                 <i class="fa-solid fa-ban"></i>
+					<p>Rejected List</p>
+					<!-- <span class="badge badge-count" style="color:white; background:red;">5</span> -->
+				 </a>
+			    </li>
+
                          </ul>
                      </div>
                  </li>
@@ -156,3 +99,8 @@
  <!-- End Sidebar -->
 
 
+
+
+
+
+ 

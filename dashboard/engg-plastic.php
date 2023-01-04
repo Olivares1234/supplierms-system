@@ -1,3 +1,4 @@
+<?php include 'controller/fetch-count-dash.php'; ?>
 <?php include 'layout/engg-plastic/engg_plastic_header.php'; ?>
 <?php include 'layout/engg-plastic/engg_plastic_navbar.php'; ?>
 <?php include 'layout/engg-plastic/engg_plastic_sidebar.php'; ?>

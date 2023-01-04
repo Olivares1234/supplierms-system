@@ -1,3 +1,4 @@
+<?php include 'controller/fetch-count-dash.php'; ?>
 <?php include 'layout/forms-receipt/forms_receipt_header.php'; ?>
 <?php include 'layout/forms-receipt/forms_receipt_navbar.php'; ?>
 <?php include 'layout/forms-receipt/forms_receipt_sidebar.php'; ?>

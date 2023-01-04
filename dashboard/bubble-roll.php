@@ -1,3 +1,4 @@
+<?php include 'controller/fetch-count-dash.php'; ?>
 <?php include 'layout/bubble-roll/bubble-roll_header.php'; ?>
 <?php include 'layout/bubble-roll/bubble-roll_navbar.php'; ?>
 <?php include 'layout/bubble-roll/bubble-roll_sidebar.php'; ?>

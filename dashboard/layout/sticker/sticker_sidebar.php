@@ -73,6 +73,22 @@
 				 </a>
 			    </li>
 
+                <li class="nav-item">
+            <a href="pending.php">
+            <i class="fa-solid fa-message"></i>
+               <p>Ongoing Approval</p>
+               <span class="badge badge-count" style="color:white; background:orange;"><?php echo $total_pending;?></span>
+            </a>
+           </li>
+
+           <li class="nav-item">
+            <a href="rejected.php">
+            <i class="fa-solid fa-ban"></i>
+               <p>Rejected List</p>
+               <!-- <span class="badge badge-count" style="color:white; background:red;">5</span> -->
+            </a>
+           </li>
+
                          </ul>
                      </div>
                  </li>

@@ -1,3 +1,4 @@
+<?php include 'controller/fetch-count-dash.php'; ?>
 <?php include 'layout/film/film_header.php'; ?>
 <?php include 'layout/film/film_navbar.php'; ?>
 <?php include 'layout/film/film_sidebar.php'; ?>

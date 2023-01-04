@@ -1,3 +1,4 @@
+<?php include 'controller/fetch-count-dash.php'; ?>
 <?php include 'layout/blade/blade_header.php'; ?>
 <?php include 'layout/blade/blade_navbar.php'; ?>
 <?php include 'layout/blade/blade_sidebar.php'; ?>

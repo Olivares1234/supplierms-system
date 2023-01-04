@@ -1,3 +1,4 @@
+<?php include 'controller/fetch-count-dash.php'; ?>
 <?php include 'layout/sticker/sticker_header.php'; ?>
 <?php include 'layout/sticker/sticker_navbar.php'; ?>
 <?php include 'layout/sticker/sticker_sidebar.php'; ?>

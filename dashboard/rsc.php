@@ -1,3 +1,4 @@
+<?php include 'controller/fetch-count-dash.php'; ?>
 <?php include 'layout/rsc/rsc_header.php'; ?>
 <?php include 'layout/rsc/rsc_navbar.php'; ?>
 <?php include 'layout/rsc/rsc_sidebar.php'; ?>

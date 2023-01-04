@@ -28,7 +28,7 @@
 <!-- <script src="assets/js/plugin/chart-circle/circles.min.js"></script> -->
 
 <!-- Datatables -->
-<script src="assets/js/plugin/datatables/datatables-ziplock.min.js"></script>
+<script src="assets/js/plugin/datatables/datatables-rejected.min.js"></script>
 
 <!-- Bootstrap Notify -->
 <!-- <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script> -->
@@ -60,13 +60,6 @@
 <script src="assets/js/toastr-options.js"></script>
 <script>	  // message popup info
 
-<?php if(isset($_SESSION['msg3'])): ?>
-		toastr.info("<?php echo flash('msg3'); ?>");
-		<?php endif ?>
-
-<?php if(isset($_SESSION['msg4'])): ?>
-		toastr.success("<?php echo flash('msg4'); ?>");
-<?php endif ?>
 // ../../config/msg_popup.php
 </script>
 <script src="assets/js/reponsive-datatable.js"></script>

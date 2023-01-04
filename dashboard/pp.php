@@ -1,3 +1,4 @@
+<?php include 'controller/fetch-count-dash.php'; ?>
 <?php include 'layout/pp/pp_header.php'; ?>
 <?php include 'layout/pp/pp_navbar.php'; ?>
 <?php include 'layout/pp/pp_sidebar.php'; ?>

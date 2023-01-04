@@ -1,3 +1,4 @@
+<?php include 'controller/fetch-count-dash.php'; ?>
 <?php include 'layout/pe/pe_header.php'; ?>
 <?php include 'layout/pe/pe_navbar.php'; ?>
 <?php include 'layout/pe/pe_sidebar.php'; ?>

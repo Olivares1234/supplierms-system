@@ -1,3 +1,4 @@
+<?php include 'controller/fetch-count-dash.php'; ?>
 <?php include 'layout/danpla/danpla_header.php'; ?>
 <?php include 'layout/danpla/danpla_navbar.php'; ?>
 <?php include 'layout/danpla/danpla_sidebar.php'; ?>
