@@ -15,6 +15,7 @@ try {
             <td><?php echo $row['sppr_contact_person']; ?></td>
             <td><?php echo $row['sppr_contact_num']; ?></td>
             <td style="text-align: center; color:#209d8f;"><?php echo $row['sppr_remarks']; ?></td>
+            <td style="text-align: center; color:#c51627; font-weight:bold;"><?php echo $row['sppr_status']; ?></td>
             <td style="text-align: center;">
                 <div class="form-button-action">
                 <span class="border border-bottom" style="background: #f7f9fb;">

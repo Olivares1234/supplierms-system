@@ -331,7 +331,7 @@
                                 <td style="word-wrap: break-word;" class="sppr_raw_materials" name="sppr_raw_materials" value="sppr_raw_materials"></td>
 
                                 <th>Supplier Name:</th>
-                                <td colspan="2" ; style="word-wrap: break-word;" class="sppr_company_name" name="sppr_company_name" value="sppr_company_name"></td>
+                                <td colspan="3" ; style="word-wrap: break-word;" class="sppr_company_name" name="sppr_company_name" value="sppr_company_name"></td>
 
                             </tr>
 
@@ -340,7 +340,7 @@
                                 <td colspan="0" ; style="word-wrap: break-word;" class="sppr_product_lists" name="sppr_product_lists" value="sppr_product_lists"></td>
 
                                 <th>Address:</th>
-                                <td colspan="0" ; style="word-wrap: break-word;" class="sppr_address" name="sppr_address" value="sppr_address"></td>
+                                <td colspan="3" ; style="word-wrap: break-word;" class="sppr_address" name="sppr_address" value="sppr_address"></td>
 
                             </tr>
 
@@ -349,7 +349,7 @@
                                 <td style="word-wrap: break-word;" class="sppr_current_price" name="sppr_current_price" value="sppr_current_price"></td>
 
                                 <th>Nationality:</th>
-                                <td colspan="2" ; style="word-wrap: break-word;" class="sppr_nationality" name="sppr_nationality" value="sppr_nationality"></td>
+                                <td colspan="3" ; style="word-wrap: break-word;" class="sppr_nationality" name="sppr_nationality" value="sppr_nationality"></td>
 
                             </tr>
 
@@ -358,7 +358,7 @@
                                 <td style="word-wrap: break-word;" class="sppr_owner" name="sppr_owner" value="sppr_owner"></td>
 
                                 <th>Contact Person:</th>
-                                <td style="word-wrap: break-word;" class="sppr_contact_person" name="sppr_contact_person" value="sppr_contact_person"></td>
+                                <td colspan="3" ; style="word-wrap: break-word;" class="sppr_contact_person" name="sppr_contact_person" value="sppr_contact_person"></td>
 
                             </tr>
 
@@ -367,7 +367,7 @@
                                 <td colspan="0" ; style="word-wrap: break-word;" class="sppr_contact_num" name="sppr_contact_num" value="sppr_contact_num">
 
                                 <th>Fax #:</th>
-                                <td style="word-wrap: break-word;" class="sppr_fax_num" name="sppr_fax_num" value="sppr_fax_num"></td>
+                                <td colspan="3" ; style="word-wrap: break-word;" class="sppr_fax_num" name="sppr_fax_num" value="sppr_fax_num"></td>
 
                             </tr>
 
@@ -387,6 +387,9 @@
 
                                 <th>Remarks:</th>
                                 <td style="word-wrap: break-word; color:#209d8f;" class="sppr_remarks" name="sppr_remarks" value="sppr_remarks"></td>
+
+                                <th>Status:</th>
+                                <td style="word-wrap: break-word; font-weight:bold; color:#c51627;" class="sppr_status" name="sppr_status" value="sppr_status"></td>
 
                             </tr>
                         </table>

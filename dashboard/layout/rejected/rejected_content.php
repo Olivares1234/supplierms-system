@@ -64,38 +64,33 @@
 				<div class="col-md-12">
 					<div class="card">
 						<div class="card-header">
-							<h4 class="card-title" style="font-weight: 600;">Rejected List</h4>
-							<br>
-							<form class="form-row">
-								
-
-
-							</form>
-
+							<h4 class="card-title" style="font-weight: 600;">Rejected Approval</h4>
+							<!-- <button class="btn btn-primary me-md-2" id="addnew" type="button" style="float:right;"><i class="fa-solid fa-trailer"></i>&nbsp;Add Supplier</button> -->
 						</div>
 						<div class="card-body">
-
+						
 							<div class="loaders">
-								<center>
-									<img src="assets/img/truck.gif" alt="" width="250px" height="250px">
+							<center>
+								<img src="assets/img/truck.gif" alt="" width="250px" height="250px" >
 								</center>
 							</div>
-
+								
 							<div class="table-responsive lg" id="examples">
 								<table id="example" class="table display table-striped table-hover table-responsive" width="100%">
 									<thead>
 										<tr>
 											<!-- <th style="background: #2c8cb7; color:#fff;">Supplier ID</th> -->
-											<th style="text-align:center; background: #2c8cb7; color:#fff;">Company&nbsp;Name</th>
+											<th style="text-align: center; background: #2c8cb7; color:#fff;">Company&nbsp;Name</th>
 											<!-- <th style="background: #2c8cb7; color:#fff;">Address</th> -->
-											<th style="text-align:center; background: #2c8cb7; color:#fff; ">Product&nbsp;List</th>
+											<th style="text-align: center; background: #2c8cb7; color:#fff; ">Product&nbsp;List</th>
 											<!-- <th style="background: #2c8cb7; color:#fff; ">Current Price</th>
                                             <th style="background: #2c8cb7; color:#fff; ">Nationality</th>
                                             <th style="background: #2c8cb7; color:#fff; ">Owner</th> -->
-											<th style="text-align:center; background: #2c8cb7; color:#fff; ">Contact&nbsp;Person</th>
-											<th style="text-align:center; background: #2c8cb7; color:#fff; ">Contact #.</th>
-											<th style="text-align:center; background: #2c8cb7; color:#fff; ">Remarks</th>
-											<th style="text-align:center; background: #2c8cb7; color:#fff; ">Action</th>
+											<th style="text-align: center; background: #2c8cb7; color:#fff; ">Contact&nbsp;Person</th>
+											<th style="text-align: center; background: #2c8cb7; color:#fff; ">Contact&nbsp;#.</th>
+											<th style="text-align: center; background: #2c8cb7; color:#fff; ">Remarks</th>
+											<th style="text-align: center; background: #2c8cb7; color:#fff; ">Status</th>
+											<th style="text-align: center;background: #2c8cb7; color:#fff; ">Action</th>
 											<!-- <th style="background: #2c8cb7; color:#fff">Current Price</th>
                                             <th style="background: #2c8cb7; color:#fff">Nationality</th>
                                             <th style="background: #2c8cb7; color:#fff">Owner</th> -->
@@ -132,3 +127,4 @@
 </div>
 </div>
 </div>
+

@@ -389,7 +389,7 @@
                                 <td style="word-wrap: break-word; color:#209d8f;" class="sppr_remarks" name="sppr_remarks" value="sppr_remarks"></td>
 
                                 <th>Status:</th>
-                                <td style="word-wrap: break-word; color:orange;" class="" name="" value="">Ongoing</td>
+                                <td style="word-wrap: break-word; color:orange;" class="" name="" value=""><b>Ongoing</b></td>
                             </tr>
                         </table>
                     </div>

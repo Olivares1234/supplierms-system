@@ -13,7 +13,7 @@
                         <div class="col-md-6">
                             <div class="form-group form-group-default">
                                 <label><b>Company Name:</b></label>
-                                <input type="hidden" style="text-transform: capitalize;" class="form-control" name="sppr_raw_materials" value="Danpla">
+                                <input type="hidden" style="text-transform: capitalize;" class="form-control" name="sppr_raw_materials" value="Bubble Roll">
                                 <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_company_name" placeholder="Enter Company Name..." required>
                             </div>
                         </div>
@@ -298,6 +298,7 @@
                             <div class="form-group form-group-default">
                                 <label><b>Remarks:</b></label>
                                 <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_remarks" placeholder="Enter Remarks...">
+                                <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_status" value="Pending">
                             </div>
                         </div>
                     </div> 
