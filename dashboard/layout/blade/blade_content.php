@@ -126,6 +126,7 @@
 											<th style="text-align:center; background: #2c8cb7; color:#fff; ">Contact&nbsp;Person</th>
 											<th style="text-align:center; background: #2c8cb7; color:#fff; ">Contact&nbsp;#.</th>
 											<th style="text-align:center; background: #2c8cb7; color:#fff; ">Remarks</th>
+											<th style="text-align: center; background: #2c8cb7; color:#fff; ">Status</th>
 											<th style="text-align:center; background: #2c8cb7; color:#fff; ">Action</th>
 											<!-- <th style="background: #2c8cb7; color:#fff">Current Price</th>
                                             <th style="background: #2c8cb7; color:#fff">Nationality</th>

@@ -117,15 +117,16 @@
 									<thead>
 										<tr> 
 											<!-- <th style="background: #2c8cb7; color:#fff;">Supplier ID</th> -->
-											<th style="text-align: center; background: #2c8cb7; color:#fff;">Company Name</th>
+											<th style="text-align: center; background: #2c8cb7; color:#fff;">Company&nbsp;Name</th>
 											<!-- <th style="background: #2c8cb7; color:#fff;">Address</th> -->
-											<th style="text-align: center; background: #2c8cb7; color:#fff; ">Product List</th>
+											<th style="text-align: center; background: #2c8cb7; color:#fff; ">Product&nbsp;List</th>
 											<!-- <th style="background: #2c8cb7; color:#fff; ">Current Price</th>
                                             <th style="background: #2c8cb7; color:#fff; ">Nationality</th>
                                             <th style="background: #2c8cb7; color:#fff; ">Owner</th> -->
-											<th style="text-align: center; background: #2c8cb7; color:#fff; ">Contact Person</th>
-											<th style="text-align: center; background: #2c8cb7; color:#fff; ">Contact #.</th>
+											<th style="text-align: center; background: #2c8cb7; color:#fff; ">Contact&nbsp;Person</th>
+											<th style="text-align: center; background: #2c8cb7; color:#fff; ">Contact&nbsp;#.</th>
 											<th style="text-align: center; background: #2c8cb7; color:#fff; ">Remarks</th>
+											<th style="text-align: center; background: #2c8cb7; color:#fff; ">Status</th>
 											<th style="text-align: center; background: #2c8cb7; color:#fff; ">Action</th>
 											<!-- <th style="background: #2c8cb7; color:#fff">Current Price</th>
                                             <th style="background: #2c8cb7; color:#fff">Nationality</th>

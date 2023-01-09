@@ -289,7 +289,7 @@
                         <div class="col-md-6">
                             <div class="form-group form-group-default">
                                 <label><b>Year Approved:</b></label>
-                                <input type="number" min="1900" max="2099" step="1" value="2016" style="text-transform: capitalize;" class="form-control" name="sppr_approved" placeholder="Enter Year Approved...">
+                                <input type="number" min="1900" max="" step="1" value="2016" style="text-transform: capitalize;" class="form-control" name="sppr_approved" placeholder="Enter Year Approved...">
                                 <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_raw_extension" placeholder="Enter Raw Extension..." value="PP" hidden>
                             </div>
                         </div>
@@ -298,6 +298,7 @@
                             <div class="form-group form-group-default">
                                 <label><b>Remarks:</b></label>
                                 <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_remarks" placeholder="Enter Remarks...">
+                                <input type="hidden" style="text-transform: capitalize;" class="form-control" name="sppr_status" value="Pending">
                             </div>
                         </div>
                     </div> 
@@ -305,7 +306,7 @@
 
                 <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span><i class="fa-solid fa-repeat"></i> Reset</button>
-                <button type="submit" id="refresh" class="btn btn-primary"><span class="glyphicon glyphicon-check"></span> <i class="fa-solid fa-paper-plane"></i> Save</a>
+                <button type="submit" id="submitBtn" class="btn btn-primary"><span class="glyphicon glyphicon-check"></span> <i class="fa-solid fa-paper-plane"></i> Save</a>
                     </form>
             </div>
         </div>
@@ -328,10 +329,10 @@
                         <table class="table table-bordered table-responsive" style="width: 100%">
                             <tr>
                                 <th>Raw Material:</th>
-                                <td style="word-wrap: break-word;" class="sppr_raw_materials" name="sppr_raw_materials" value="sppr_raw_materials"></td>
+                                <td colspan="1" style="word-wrap: break-word;" class="sppr_raw_materials" name="sppr_raw_materials" value="sppr_raw_materials"></td>
 
                                 <th>Supplier Name:</th>
-                                <td colspan="2" ; style="word-wrap: break-word;" class="sppr_company_name" name="sppr_company_name" value="sppr_company_name"></td>
+                                <td colspan="3" ; style="word-wrap: break-word;" class="sppr_company_name" name="sppr_company_name" value="sppr_company_name"></td>
 
                             </tr>
 
@@ -340,7 +341,7 @@
                                 <td colspan="0" ; style="word-wrap: break-word;" class="sppr_product_lists" name="sppr_product_lists" value="sppr_product_lists"></td>
 
                                 <th>Address:</th>
-                                <td colspan="0" ; style="word-wrap: break-word;" class="sppr_address" name="sppr_address" value="sppr_address"></td>
+                                <td colspan="3" ; style="word-wrap: break-word;" class="sppr_address" name="sppr_address" value="sppr_address"></td>
 
                             </tr>
 
@@ -349,7 +350,7 @@
                                 <td style="word-wrap: break-word;" class="sppr_current_price" name="sppr_current_price" value="sppr_current_price"></td>
 
                                 <th>Nationality:</th>
-                                <td colspan="2" ; style="word-wrap: break-word;" class="sppr_nationality" name="sppr_nationality" value="sppr_nationality"></td>
+                                <td colspan="3" ; style="word-wrap: break-word;" class="sppr_nationality" name="sppr_nationality" value="sppr_nationality"></td>
 
                             </tr>
 
@@ -358,7 +359,7 @@
                                 <td style="word-wrap: break-word;" class="sppr_owner" name="sppr_owner" value="sppr_owner"></td>
 
                                 <th>Contact Person:</th>
-                                <td style="word-wrap: break-word;" class="sppr_contact_person" name="sppr_contact_person" value="sppr_contact_person"></td>
+                                <td colspan="3" style="word-wrap: break-word;" class="sppr_contact_person" name="sppr_contact_person" value="sppr_contact_person"></td>
 
                             </tr>
 
@@ -367,7 +368,7 @@
                                 <td colspan="0" ; style="word-wrap: break-word;" class="sppr_contact_num" name="sppr_contact_num" value="sppr_contact_num">
 
                                 <th>Fax #:</th>
-                                <td style="word-wrap: break-word;" class="sppr_fax_num" name="sppr_fax_num" value="sppr_fax_num"></td>
+                                <td colspan="3" style="word-wrap: break-word;" class="sppr_fax_num" name="sppr_fax_num" value="sppr_fax_num"></td>
 
                             </tr>
 
@@ -388,16 +389,18 @@
                                 <th>Remarks:</th>
                                 <td style="word-wrap: break-word; color:#209d8f;" class="sppr_remarks" name="sppr_remarks" value="sppr_remarks"></td>
 
+                                <th>Status:</th>
+                                <td style="word-wrap: break-word; font-weight:bold; color:#28a745;" class="sppr_status" name="sppr_status" value="sppr_status"></td>
                             </tr>
                         </table>
                     </div>
 
             </div>
             </form>
-            <!-- <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
-                <button type="submit" id="refresh" class="btn btn-primary"><span class="glyphicon glyphicon-check"></span> Update</a>
-            </div> -->
+            <div class="modal-footer">
+            <!-- <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span><i class="fa-solid fa-xmark"></i> Cancel</button>
+                <button type="submit" id="refresh" class="btn btn-primary"><span class="glyphicon glyphicon-check"></span><i class="fa-solid fa-paper-plane"></i> Approved</a> -->
+            </div>
 
         </div>
     </div>
@@ -695,7 +698,7 @@
                         <div class="col-md-6">
                             <div class="form-group form-group-default">
                                 <label><b>Year Approved:</b></label>
-                                <input type="number" min="1900" max="2099" step="1" value="2016" style="text-transform: capitalize;" class="form-control sppr_approved" name="sppr_approved" placeholder="Enter Year Approved...">
+                                <input type="number" min="1900" max="" step="1" value="2016" style="text-transform: capitalize;" class="form-control sppr_approved" name="sppr_approved" placeholder="Enter Year Approved...">
                                 <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_raw_extension" placeholder="Enter Raw Extension..." value="PP" hidden>
                             </div>
                         </div>
@@ -727,7 +730,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <p class="text-center">Are you sure you want to Delete</p>
+                <p class="text-center">Are you sure you want to Delete?</p>
                 <h2 class="text-center fullname"></h2>
             </div>
             <div class="modal-footer">

@@ -4,7 +4,7 @@ $database = new connDB();
 $db = $database->open();
 
 try {
-    $sql = 'SELECT * FROM tbl_supplier WHERE sppr_raw_extension="Film"';
+    $sql = 'SELECT * FROM tbl_supplier WHERE (sppr_raw_extension="Film") AND (sppr_status="Approved")';
     foreach ($db->query($sql) as $row) {
         // WHERE sppr_raw_materials="Forms" 
 ?>
@@ -15,6 +15,7 @@ try {
             <td><?php echo $row['sppr_contact_person']; ?></td>
             <td><?php echo $row['sppr_contact_num']; ?></td>
             <td style="text-align: center; color:#209d8f;"><?php echo $row['sppr_remarks']; ?></td>
+            <td style="text-align: center; color:#28a745; font-weight:bold;"><?php echo $row['sppr_status']; ?></td>
             <td style="text-align: center; ">
                 <div class="form-button-action">
                 <span class="border border-bottom" style="background: #f7f9fb;">

@@ -289,7 +289,7 @@
                         <div class="col-md-6">
                             <div class="form-group form-group-default">
                                 <label><b>Year Approved:</b></label>
-                                <input type="number" min="1900" max="2099" step="1" value="2016" style="text-transform: capitalize;" class="form-control" name="sppr_approved" placeholder="Enter Year Approved...">
+                                <input type="number" min="1900" max="" step="1" value="2016" style="text-transform: capitalize;" class="form-control" name="sppr_approved" placeholder="Enter Year Approved...">
                                 <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_raw_extension" placeholder="Enter Raw Extension..." value="Tape" hidden>
                             </div>
                         </div>
@@ -298,6 +298,7 @@
                             <div class="form-group form-group-default">
                                 <label><b>Remarks:</b></label>
                                 <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_remarks" placeholder="Enter Remarks...">
+                                <input type="hidden" style="text-transform: capitalize;" class="form-control" name="sppr_status" value="Pending">
                             </div>
                         </div>
                     </div> 
@@ -305,7 +306,7 @@
 
                 <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span><i class="fa-solid fa-repeat"></i> Reset</button>
-                <button type="submit" id="refresh" class="btn btn-primary"><span class="glyphicon glyphicon-check"></span> <i class="fa-solid fa-paper-plane"></i> Save</a>
+                <button type="submit" id="submitBtn" class="btn btn-primary"><span class="glyphicon glyphicon-check"></span> <i class="fa-solid fa-paper-plane"></i> Save</a>
                     </form>
             </div>
         </div>
@@ -695,7 +696,7 @@
                         <div class="col-md-6">
                             <div class="form-group form-group-default">
                                 <label><b>Year Approved:</b></label>
-                                <input type="number" min="1900" max="2099" step="1" value="2016" style="text-transform: capitalize;" class="form-control sppr_approved" name="sppr_approved" placeholder="Enter Year Approved...">
+                                <input type="number" min="1900" max="" step="1" value="2016" style="text-transform: capitalize;" class="form-control sppr_approved" name="sppr_approved" placeholder="Enter Year Approved...">
                                 <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_raw_extension" placeholder="Enter Raw Extension..." value="Tape" hidden>
                             </div>
                         </div>
@@ -727,7 +728,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <p class="text-center">Are you sure you want to Delete</p>
+                <p class="text-center">Are you sure you want to Delete?</p>
                 <h2 class="text-center fullname"></h2>
             </div>
             <div class="modal-footer">

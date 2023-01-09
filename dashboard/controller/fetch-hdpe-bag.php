@@ -4,7 +4,7 @@ $database = new connDB();
 $db = $database->open();
 
 try {
-    $sql = 'SELECT * FROM tbl_supplier WHERE sppr_raw_extension="Hdpe"';
+    $sql = 'SELECT * FROM tbl_supplier WHERE (sppr_raw_extension="Hdpe") AND (sppr_status="Approved")';
     foreach ($db->query($sql) as $row) {
         // WHERE sppr_raw_materials="Forms" 
 ?>
@@ -15,7 +15,8 @@ try {
             <td><?php echo $row['sppr_contact_person']; ?></td>
             <td><?php echo $row['sppr_contact_num']; ?></td>
             <td style="text-align: center; color:#209d8f;"><?php echo $row['sppr_remarks']; ?></td>
-            <td>
+            <td style="text-align: center; color:#28a745; font-weight:bold;"><?php echo $row['sppr_status']; ?></td>
+            <td style="text-align: center;">
                 <div class="form-button-action">
                 <span class="border border-bottom" style="background: #f7f9fb;">
                 <button type="button" class="btn-link btn-primary btn-md view" data-id="<?php echo $row['id']; ?>" data-toggle="tooltip"  data-placement="top" title="View" data-original-title="View">

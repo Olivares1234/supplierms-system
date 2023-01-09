@@ -66,5 +66,25 @@
 
 <!-- controller/modal.php -->
 
+<script>
+//   $(document).ready(function(){
+//   $('#submitBtn').click(function(e) { 
+//     // e.preventDefault();   //  cancel submit action
+//     $(this).html('<i class="fa fa-spinner fa-spin gap-right"></i> Searching ...');  // change text
+//     setInterval(function(){ document.forms[0].submit(); }, 5000); // submit after two seconds
+//     $('#submitBtn').attr("disabled", true);
+//   });    
+// });
+
+$('#submitBtn').click(function() {
+    // $(this).attr('disabled','disabled');
+    $(this).html('<i class="fa fa-spinner fa-spin gap-right"></i> Sending ...');  // change text
+    setTimeout(function() {
+        $('#submitBtn').attr('disabled','disabled');
+    },10);   // enable after 2 seconds
+});
+
+</script>
+
 </body>
 </html>
