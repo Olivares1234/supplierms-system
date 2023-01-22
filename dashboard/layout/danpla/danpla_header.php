@@ -25,7 +25,8 @@ if (isset($_SESSION["username"])) {
     <link rel="stylesheet" href="assets/css/loader_animate.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles-main.min.css">
-    <link rel="stylesheet" href="assets/css/icon/css/all.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/icon/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     
     <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css"> -->
     <!-- <link rel="stylesheet" href="https://cdn.datatables.net/rowreorder/1.3.1/css/rowReorder.dataTables.min.css"> -->

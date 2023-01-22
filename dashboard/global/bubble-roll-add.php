@@ -14,13 +14,13 @@ require 'phpmailer/src/SMTP.php';
     $db = $database->open();
     try{
         //use of prepared statement to prevent sql injection
-        $stmt = $db->prepare("INSERT INTO tbl_supplier (sppr_raw_materials, sppr_company_name, sppr_address, sppr_product_lists, sppr_current_price, sppr_nationality, sppr_owner, sppr_contact_person, sppr_contact_num, sppr_fax_num, sppr_email, sppr_current_pay_terms, sppr_approved, sppr_remarks, sppr_raw_extension, sppr_status) 
-        VALUES (:sppr_raw_materials, :sppr_company_name, :sppr_address, :sppr_product_lists, :sppr_current_price, :sppr_nationality, :sppr_owner, :sppr_contact_person, :sppr_contact_num, :sppr_fax_num, :sppr_email, :sppr_current_pay_terms, :sppr_approved, :sppr_remarks, :sppr_raw_extension, :sppr_status)");
+        $stmt = $db->prepare("INSERT INTO tbl_supplier (sppr_raw_materials, sppr_company_name, sppr_address, sppr_product_lists, sppr_current_price, sppr_nationality, sppr_owner, sppr_contact_person, sppr_contact_num, sppr_fax_num, sppr_email, sppr_current_pay_terms, sppr_approved, sppr_remarks, sppr_raw_extension, sppr_status, sppr_email_user) 
+        VALUES (:sppr_raw_materials, :sppr_company_name, :sppr_address, :sppr_product_lists, :sppr_current_price, :sppr_nationality, :sppr_owner, :sppr_contact_person, :sppr_contact_num, :sppr_fax_num, :sppr_email, :sppr_current_pay_terms, :sppr_approved, :sppr_remarks, :sppr_raw_extension, :sppr_status, :sppr_email_user)");
         //if-else statement executing prepared statement
         if ($stmt->execute(array(':sppr_raw_materials' => $_POST['sppr_raw_materials'], ':sppr_company_name' => $_POST['sppr_company_name'], ':sppr_address' => $_POST['sppr_address'],
         ':sppr_product_lists' => $_POST['sppr_product_lists'], ':sppr_current_price' => $_POST['sppr_current_price'], ':sppr_nationality' => $_POST['sppr_nationality'], ':sppr_nationality' => $_POST['sppr_nationality'], 
         ':sppr_owner' => $_POST['sppr_owner'], ':sppr_contact_person' => $_POST['sppr_contact_person'], ':sppr_contact_num' => $_POST['sppr_contact_num'], ':sppr_fax_num' => $_POST['sppr_fax_num'], ':sppr_raw_extension' => $_POST['sppr_raw_extension'],
-        ':sppr_email' => $_POST['sppr_email'], ':sppr_current_pay_terms' => $_POST['sppr_current_pay_terms'], ':sppr_remarks' => $_POST['sppr_remarks'], ':sppr_approved' => $_POST['sppr_approved'], ':sppr_status' => $_POST['sppr_status'])) ){	
+        ':sppr_email' => $_POST['sppr_email'], ':sppr_current_pay_terms' => $_POST['sppr_current_pay_terms'], ':sppr_remarks' => $_POST['sppr_remarks'], ':sppr_approved' => $_POST['sppr_approved'], ':sppr_status' => $_POST['sppr_status'], ':sppr_email_user' => $_POST['sppr_email_user'])) ){	
             $output['message'] = 'Member added successfully';		
             
             $mail = new PHPMailer(true);     
@@ -47,8 +47,8 @@ require 'phpmailer/src/SMTP.php';
 				$mail->setFrom('gabolivares63@gmail.com','Minamoto Enterprise');
 				
 				//Recipients
-				$mail->addAddress($_POST['email']='gabolivares63@gmail.com');              
-				$mail->addReplyTo($_POST['email']='gabolivares63@gmail.com');
+				$mail->addAddress($email = $_POST['sppr_email_user']);              
+				$mail->addReplyTo($email = $_POST['sppr_email_user']);
 				
 				
 				//Content
@@ -61,7 +61,7 @@ require 'phpmailer/src/SMTP.php';
                 <table style='width:100%;' class='table table-bordered' border='1px solid #333;'>
                 <thead>
                     <tr> 
-                        <th rowspan='2' style='text-align: center; background: #2c8cb7; color:#fff;'>Raw Materials</th>
+                        <th rowspan='2' style='text-align: center; background: #2c8cb7; color:#fff;'>Raw Item</th>
                         <th rowspan='2' style='text-align: center; background: #2c8cb7; color:#fff;'>Company Name</th>
                         <th rowspan='2' style='background: #2c8cb7; color:#fff;'>Address</th>
                         <th rowspan='2' style='text-align: center; background: #2c8cb7; color:#fff; '>Product List</th>

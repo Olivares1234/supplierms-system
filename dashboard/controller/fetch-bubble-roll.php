@@ -11,10 +11,10 @@ try {
         <tr>
 
             <!-- <td style="text-align: center;"><php echo 'Sppr'.$row['id']; ?></td> -->
-            <td><?php echo $row['sppr_company_name']; ?></td>
-            <td><?php echo $row['sppr_product_lists']; ?></td>
-            <td><?php echo $row['sppr_contact_person']; ?></td>
-            <td><?php echo $row['sppr_contact_num']; ?></td>
+            <td style="text-align: center;"><?php echo $row['sppr_company_name']; ?></td>
+            <td style="text-align: center;"><?php echo $row['sppr_product_lists']; ?></td>
+            <td style="text-align: center;"><?php echo $row['sppr_contact_person']; ?></td>
+            <td style="text-align: center;"><?php echo $row['sppr_contact_num']; ?></td>
             <td style="text-align: center; color:#209d8f;"><?php echo $row['sppr_remarks']; ?></td>
             <td style="text-align: center; color:#28a745; font-weight:bold;"><?php echo $row['sppr_status']; ?></td>
             <td style="text-align: center;">

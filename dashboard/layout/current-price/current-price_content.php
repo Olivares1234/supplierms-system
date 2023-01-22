@@ -1,0 +1,165 @@
+<!-- Main Content -->
+<div class="main-panel">
+	<div class="content">
+		<div class="page-inner">
+			<div class="page-header">
+				<!-- <h4 class="page-title">Resin Suppliers</h4> -->
+			</div>
+
+			<!-- <div class="row">
+				<div class="col-md-8">
+					<div class="card">
+						<div class="card-header">
+							<div class="card-head-row">
+								<div class="card-title">User Statistics</div>
+								<div class="card-tools">
+									<a href="#" class="btn btn-info btn-border btn-round btn-sm mr-2">
+										<span class="btn-label">
+											<i class="fa fa-pencil"></i>
+										</span>
+										Export
+									</a>
+									<a href="#" class="btn btn-info btn-border btn-round btn-sm">
+										<span class="btn-label">
+											<i class="fa fa-print"></i>
+										</span>
+										Print
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="chart-container" style="min-height: 375px">
+								<canvas id="statisticsChart"></canvas>
+							</div>
+							<div id="myChartLegend"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card card-secondary">
+						<div class="card-header">
+							<div class="card-title">Daily Sales</div>
+							<div class="card-category">March 25 - April 02</div>
+						</div>
+						<div class="card-body pb-0">
+							<div class="mb-4 mt-2">
+								<h1>$4,578.58</h1>
+							</div>
+							<div class="pull-in">
+								<canvas id="dailySalesChart"></canvas>
+							</div>
+						</div>
+					</div>
+					<div class="card card-info bg-info-gradient">
+						<div class="card-body">
+							<h4 class="mb-1 fw-bold">Tasks Progress</h4>
+							<div id="task-complete" class="chart-circle mt-4 mb-3"></div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="card">
+						<div class="card-header">
+							<h4 class="card-title" style="font-weight: 600;">History Current Price</h4>
+						</div>
+						<div class="card-body">
+						<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <!-- <h6 class="m-0 font-weight-bold text-primary">DataTables with Hover</h6> -->
+                  <!-- <div class="col-sm-2"><label for="DateRange Search:"></label></div> -->
+                  <div class="form-group row"> 
+                    <div class="col-sm-10"> <h3>Search Date Range:</h3></div>
+                     <div class="col-md-4">
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text text-white" id="basic-addon1" style="background: #2c8cb7;"><i
+                                        class="fas fa-calendar-alt"></i></span>
+                            </div>
+                            <input type="text" class="form-control" id="min" name="min" placeholder="Start Date" readonly>
+                        </div>
+                    </div>
+                   
+                    <div class="col-md-4">
+                      <div></div>
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text text-white" id="basic-addon1" style="background: #2c8cb7;"><i
+                                        class="fas fa-calendar-alt"></i></span>
+                            </div>
+                            <input type="text" class="form-control" id="max" name="max" placeholder="End Date" readonly>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="input-group mb-1">
+                            <button onClick="window.location.reload();" class="btn btn-md-5 text-white" style="background: #2c8cb7;"><i class="fas fa-sync"></i> Refresh</button>&nbsp;
+                            <!-- <button id="reset" class="btn btn-outline-warning btn-md-5">Reset</button> -->
+                        </div>
+                    </div>
+                    </div>
+             
+                </div>
+                <hr>
+
+							<div class="loaders">
+								<center>
+									<img src="assets/img/truck.gif" alt="" width="250px" height="250px">
+								</center>
+							</div>
+
+							<div class="table-responsive1 lg" id="examples">
+								<table id="example" class="table display table-striped table-hover table-responsive" width="100%">
+									<thead>
+										<tr>
+											<!-- <th style="background: #2c8cb7; color:#fff;">Supplier ID</th> -->
+											<th style="text-align:center; background: #2c8cb7; color:#fff;">Raw&nbsp;Materials</th>
+											<th style="text-align:center; background: #2c8cb7; color:#fff;">Company&nbsp;Name</th>
+											<th style="text-align:center; background: #2c8cb7; color:#fff;">Address</th>
+											<!-- <th style="background: #2c8cb7; color:#fff;">Address</th> -->
+										&nbsp;	<th style="text-align:center; background: #2c8cb7; color:#fff; ">Product&nbsp;List</th>
+											<!-- <th style="background: #2c8cb7; color:#fff; ">Current Price</th>
+                                            <th style="background: #2c8cb7; color:#fff; ">Nationality</th>
+                                            <th style="background: #2c8cb7; color:#fff; ">Owner</th> -->
+											<th style="text-align:center; background: #2c8cb7; color:#fff; ">Contact&nbsp;Person</th>
+											<th style="text-align:center; background: #2c8cb7; color:#fff; ">Current&nbsp;Price</th>
+											<!-- <th style="text-align:center; background: #2c8cb7; color:#fff; ">Contact&nbsp;#.</th> -->
+											<th style="text-align:center; background: #2c8cb7; color:#fff; ">Date&nbsp;/&nbsp;Time</th>
+											<th style="text-align:center; background: #2c8cb7; color:#fff; ">Action</th>
+											<!-- <th style="background: #2c8cb7; color:#fff">Current Price</th>
+                                            <th style="background: #2c8cb7; color:#fff">Nationality</th>
+                                            <th style="background: #2c8cb7; color:#fff">Owner</th> -->
+										</tr>
+									</thead>
+									<tbody id="tbody"></tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="sticky-footer1 bg-white" style="top:250px">
+		<div class="container my-auto">
+			<div class="copyright text-center my-auto">
+				<span style="font-weight: 600; font-size:1rem;">Copyright &copy; <script>
+						document.write(new Date().getFullYear());
+					</script> SupplierMS - v O.1</span>
+			</div>
+		</div>
+	</footer>
+</div>
+</div>
+
+</div>
+<!-- End Main Content -->
+
+
+
+</div>
+</div>
+</div>

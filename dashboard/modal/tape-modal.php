@@ -298,6 +298,7 @@
                             <div class="form-group form-group-default">
                                 <label><b>Remarks:</b></label>
                                 <input type="text" style="text-transform: capitalize;" class="form-control" name="sppr_remarks" placeholder="Enter Remarks...">
+                                <input type="hidden" class="form-control" name="sppr_email_user" value="<?php echo $_SESSION["email"];?>">
                                 <input type="hidden" style="text-transform: capitalize;" class="form-control" name="sppr_status" value="Pending">
                             </div>
                         </div>
@@ -305,7 +306,7 @@
                     
 
                 <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span><i class="fa-solid fa-repeat"></i> Reset</button>
+                <button type="button"  onClick="window.location.reload()" class="btn btn-danger" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span><i class="fa-solid fa-repeat"></i> Reset</button>
                 <button type="submit" id="submitBtn" class="btn btn-primary"><span class="glyphicon glyphicon-check"></span> <i class="fa-solid fa-paper-plane"></i> Save</a>
                     </form>
             </div>
@@ -328,7 +329,7 @@
                     <div class="row form-group">
                         <table class="table table-bordered table-responsive" style="width: 100%">
                             <tr>
-                                <th>Raw Material:</th>
+                                <th>Raw Item:</th>
                                 <td style="word-wrap: break-word;" class="sppr_raw_materials" name="sppr_raw_materials" value="sppr_raw_materials"></td>
 
                                 <th>Supplier Name:</th>
@@ -709,8 +710,8 @@
                         </div>
                     </div> 
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Reset</button>
-                <button type="submit" id="refresh" class="btn btn-primary"><span class="glyphicon glyphicon-check"></span>Save</a>
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span><i class="fa-solid fa-repeat"></i> Reset</button>
+                <button type="submit" id="refresh" class="btn btn-primary"><span class="glyphicon glyphicon-check"></span><i class="fa-solid fa-paper-plane"></i> Save</a>
                     </form>
             </div>
         </div>
@@ -732,7 +733,7 @@
                 <h2 class="text-center fullname"></h2>
             </div>
             <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span><i class="fa-solid fa-remove"></i> Cance</button>
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span><i class="fa-solid fa-remove"></i> Cancel</button>
                 <button type="submit" id="refresh" class="btn btn-primary id"><span class="glyphicon glyphicon-check"></span><i class="fa-solid fa-paper-plane"></i> Yes</a>
             </div>
 

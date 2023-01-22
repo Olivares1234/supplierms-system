@@ -61,7 +61,7 @@ require 'phpmailer/src/SMTP.php';
                 <table style='width:100%;' class='table table-bordered' border='1px solid #333;'>
                 <thead>
                     <tr> 
-                        <th rowspan='2' style='text-align: center; background: #2c8cb7; color:#fff;'>Raw Materials</th>
+                        <th rowspan='2' style='text-align: center; background: #2c8cb7; color:#fff;'>Raw Item</th>
                         <th rowspan='2' style='text-align: center; background: #2c8cb7; color:#fff;'>Company Name</th>
                         <th rowspan='2' style='background: #2c8cb7; color:#fff;'>Address</th>
                         <th rowspan='2' style='text-align: center; background: #2c8cb7; color:#fff; '>Product List</th>

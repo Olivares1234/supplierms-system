@@ -164,6 +164,14 @@
             </a>
            </li>
 
+           <li class="nav-item">
+				 <a href="current-price.php">
+                 <i class="fas fa-dollar-sign"></i>
+					<p>History Current Price</p>
+					<!-- <span class="badge badge-count" style="color:white; background:red;">5</span> -->
+				 </a>
+			    </li>
+
                     </ul>
                 </div>
             </li>

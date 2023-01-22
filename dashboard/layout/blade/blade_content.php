@@ -71,13 +71,14 @@
 									<div class="form-check mb-2">
 										<input class="form-check-input" type="checkbox" id="autoSizingCheck">
 										<label class="form-check-label" for="autoSizingCheck">
-											<h5><b>Select Raw Materials:</b></h5>
+											<h5><b>Select Raw Items:</b></h5>
 										</label>
 									</div>
 								</div>
 								<div class="col-6">
 								<select class="form-select" style="width: 100%;" tabindex="-1" aria-hidden="true" onchange="location = this.value;">
 										<option value="blade.php">Tooling Blade</option>
+										<option value="resins.php">ABS, LDPE, LLPE, Resins</option>
 										<option value="bubble-roll.php"><b>Bubble Roll</b></option>
 										<option value="danpla.php">Danpla Sheets & Boxes</option>
 										<option value="engg-plastic.php">Engineering Plastic</option>
@@ -85,6 +86,7 @@
 										<option value="forms-receipt.php">Forms & Receipt</option>
 										<option value="hdpe-bag.php"><b>HDPE/PE & ESD Bag</b></option>
 										<option value="metal-fabric.php">Metal Fabrication</option>
+										<option value="molded-pulp.php">Molded Pulp</option>
 										<option value="tape.php">Packaging Tape</option>
 										<option value="bubble-roll.php"><b>PE/PU Conductive</b></option>
 										<option value="pallets.php">Pallets & Corner Protector </option>
@@ -97,7 +99,7 @@
 
 								</div>
 								<div class="col-auto">
-									<button class="btn btn-primary" id="addnew" type="button"><i class="fa-solid fa-trailer"></i>&nbsp;Add Supplier</button>
+									<button class="btn btn-primary" id="addnew" type="button"><i class="fa-solid fa-trailer"></i>&nbsp;Add New Supplier</button>
 								</div>
 
 

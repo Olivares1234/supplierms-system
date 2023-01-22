@@ -327,7 +327,7 @@
                     <div class="row form-group">
                         <table class="table table-bordered table-responsive" style="width: 100%">
                             <tr>
-                                <th>Raw Material:</th>
+                                <th>Raw Item:</th>
                                 <td colspan="1" style="word-wrap: break-word;" class="sppr_raw_materials" name="sppr_raw_materials" value="sppr_raw_materials"></td>
 
                                 <th>Supplier Name:</th>
@@ -733,7 +733,7 @@
                 <h2 class="text-center fullname"></h2>
             </div>
             <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span><i class="fa-solid fa-remove"></i> Cance</button>
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><span class="glyphicon glyphicon-remove"></span><i class="fa-solid fa-remove"></i> Cancel</button>
                 <button type="submit" id="refresh" class="btn btn-primary id"><span class="glyphicon glyphicon-check"></span><i class="fa-solid fa-paper-plane"></i> Yes</a>
             </div>
 
